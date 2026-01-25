@@ -33,12 +33,39 @@ function average(numbers){
         // console.log(number);
         sum = sum + number
     }
-    console.log(sum ,numbers.length);
+    // console.log(sum ,numbers.length);
     return sum / numbers.length
     
 }
 
 const ages = [12,23,16,43,50,26]
 const avg = average(ages)
-console.log(avg);
+// console.log(avg);
+
+
+// ////////////// task 4
+
+function checkBinary(num10) {
+    let off = 0
+    let on = 0
+    for (const nNum of num10) {
+        if (nNum === "0") {
+            off++
+        }
+        else{
+            on++
+        }
+    }
+    // console.log(on);
+    
+    return {on , off}
+    
+}
+
+
+const binaryNum = "10100000001111011011010010100101010010"
+const check01 = checkBinary(binaryNum)
+
+console.log(check01);
+
 
