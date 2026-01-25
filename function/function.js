@@ -9,3 +9,16 @@ const z = 20;
 const n = 30;
 const multipl = multiply(x, y, z,n,)
 // console.log(multipl);
+
+function oddOrEven(number){
+    if (number % 2 !== 0) {
+        return number * 2
+    }
+    else{
+        return number / 2
+    }
+}
+
+const numnum = 6;
+const result = oddOrEven(numnum) 
+// console.log(result);
