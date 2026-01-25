@@ -66,6 +66,22 @@ function checkBinary(num10) {
 const binaryNum = "10100000001111011011010010100101010010"
 const check01 = checkBinary(binaryNum)
 
-console.log(check01);
+// console.log(check01);
 
+
+// ////////////// task 5 
+
+function odd_even(number){
+    if (number % 2 === 0 ) {
+        return {"Even Number": number};
+    }
+    else{
+        // return `Odd Number ${number}`;
+        return {"odd number": number};
+    }
+}
+
+const aNum = 78;
+const odd_evenResult = odd_even(aNum)
+console.log(odd_evenResult);
 
